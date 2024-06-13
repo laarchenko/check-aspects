@@ -32,6 +32,8 @@ dependencies {
     implementation ("org.mapstruct:mapstruct:1.5.5.Final")
     implementation ("org.liquibase:liquibase-core")
     implementation ("io.github.openfeign:feign-core:13.2.1")
+    implementation ("net.javacrumbs.shedlock:shedlock-spring:5.13.0")
+    implementation ("net.javacrumbs.shedlock:shedlock-provider-jdbc-template:5.13.0")
 
     runtimeOnly ("org.postgresql:postgresql")
     testCompileOnly ("org.projectlombok:lombok:1.18.32")

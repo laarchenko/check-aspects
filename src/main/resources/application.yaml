@@ -1,3 +1,5 @@
+server:
+  port: 0
 spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/example
@@ -5,5 +7,5 @@ spring:
     password: password
   liquibase:
     change-log: classpath:/db/changelog/db.changelog-master.yaml
-    drop-first: false
+    drop-first: true
 
